@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
+body
+{
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    /* display: grid; */
+}
+.flex
+{
+    display: flex;
+}
+header
+{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 17px;
+    /* display: block; */
+    background: #000000cc;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    /* align-content: center;
+    align-self: flex-end;
+    align-content: center; */
+}
+header a
+{
+    color: #f5f5f7;
+    text-decoration: none;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+h2{
+    display: grid;
+}
+
+/* HEADER COMPLETE */
+
+/* MAIN START */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.toptitle
+{
+    color: #1d1d1f;
+}
+
+.grid h2
+{
+    font-size: 50px;
+    /* color: #1d1d1f; */
+    grid-column: span 12;
+    text-align: center;
+    margin-bottom: 0;
+}
+.grid h3
+{
+    margin-top: 0;
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+    grid-column: span 12;
+    margin-bottom: 0;
+}
+
+.grid a
+{
+    text-decoration: none;
+    color: #06c;
+}
+.grid p
+{
+    margin-top: 0;
+    font-size: 20px;
+    grid-column: span 12;
+    text-align: center;
+}
+.gridanchor2
+{
+    margin-left: 30px;
+}
+main img
+{
+    
+    grid-column: span 12;
+    /* justify-items: center; */
+}
+
+div
+{
+    grid-column: span 12;
+    text-align: center;
+}
+
+.newDesign1
+{
+    background: #1d1d1f;
+    width: 100%;
+    color: #fff;
+}
+
+.newDesign1 p
+{
+    margin-top: 10px;
+}
+
+.projectbox
+{
+    grid-column: span 6;
+}
+
+#red
+{
+    font-size: 18px;
+    margin-top: 0;
+    color: #bb0000;
+}
+
+#orange
+{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 0;
+    color: #FFAF19;
+}
